@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 0x09-static_libraries Project ##
 
 ![image](https://user-images.githubusercontent.com/105589308/194304775-87c925ad-f7dc-41b9-a28a-68e7f8396659.png)
@@ -69,3 +70,6 @@ This project finds solutions to the following:
 
   - After creating a static library and you would want to compile for testing use:
   - > gcc -std=gnu89 main.c -L -lmy -o(new_file_name)
+=======
+0x09-static_libraries
+>>>>>>> cef871e5dde5405ee2826371231783d78fc3313b

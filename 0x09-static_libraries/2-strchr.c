@@ -1,4 +1,5 @@
 #include "main.h"
+<<<<<<< HEAD
 #include <stdio.h>
 
 /**
@@ -25,4 +26,29 @@ char *_strchr(char *s, char c)
 				return (NULL);
 			}
 		}
+=======
+/**
+ * _strchr - function that locates a character in a string
+ *@s: first value -char
+ *@c: second value - char
+ *
+ * Return: char with result
+ */
+char *_strchr(char *s, char c)
+{
+
+	if (*s == '\0')
+		return (s);
+	while (*s)
+	{
+		if (*s == c)
+		{
+			return (s);
+		}
+	       s++;
+	}
+	if (c == '\0')
+		return (s);
+	return ('\0');
+>>>>>>> cef871e5dde5405ee2826371231783d78fc3313b
 }
