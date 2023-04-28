@@ -7,17 +7,17 @@
  *
  * Return: the number of nodes printed
  */
-size_t print_list(const list_t *l)
+size_t print_list(const list_t *h)
 {
 	size_t c = 0;
 
-	while (l)
+	while (h)
 	{
-		if (!l->str)
+		if (!h->str)
 			printf("[0] (nil)\n");
 		else
-			printf("[%u] %s\n", l->len, l->str);
-		l = l->next;
+			printf("[%u] %s\n", h->len, h->str);
+		h = h->next;
 		c++;
 	}
 
